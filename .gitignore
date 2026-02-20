@@ -60,3 +60,19 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Build artifacts
+build/
+*.dmg
+
+# macOS
+.DS_Store
+
+# Xcode / Swift
+.build/
+Packages/
+Package.resolved
+DerivedData/
+xcuserdata/
+*.xcodeproj
+*.xcworkspace
